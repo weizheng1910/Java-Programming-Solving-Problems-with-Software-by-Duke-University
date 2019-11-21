@@ -3,7 +3,7 @@
  * @version (findGene)
  */
 
-/*edu.duke.* is a library created by the university. http://www.dukelearntoprogram.com/course2/doc/javadoc/edu/duke/package-summary.html
+/*edu.duke.* is a library created by Duke university. http://www.dukelearntoprogram.com/course2/doc/javadoc/edu/duke/package-summary.html
 *Essential classes include:
 *DirectoryResource, which allows the user to choose one or more files from a directory.                                                        
 *FileResource, which allows access to its content one word or one line at a time. 
@@ -39,10 +39,10 @@ public class FindGeneV2 {
         int minIndex=0;
 
         // Below, we compare two codon at a time, using if else statements to find the shortest sequence which ends with TAA,TGA,or TAG.
-        // We first compares TAA and TGA. The output, minIndex will return the valid index or return -1 if both codons can't be found.
+        // We first compare TAA and TGA. The output, minIndex will return the valid index or return -1 if both codons can't be found.
         // Using the minIndex, we then compare it with TAG. If TAA is also -1, then the final minIndex will return -1.
         // If final minIndex is -1, we return empty String. 
-        // Otherwise we would have found a valid gene, which we would return as output. 
+        // Otherwise we would have found a valid gene, which we return as output. 
         
         if (taaIndex == -1 || (tgaIndex != -1 && tgaIndex < taaIndex)){
             minIndex = tgaIndex;
