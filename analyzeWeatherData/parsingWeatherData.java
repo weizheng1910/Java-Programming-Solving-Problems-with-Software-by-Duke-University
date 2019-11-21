@@ -1,12 +1,19 @@
 
 /**
- * Parsing weather data. 
+ * Parsing and analyzing weather data. 
  * Using the CSV parser library (org.apache.commons.csv.*), we are able to analyse data in CSV files with Java.
  * We access each field using the .get method.
- * 
  * @author (weizheng) 
  * @version (a version number or a date)
  */
+
+/*edu.duke.* is a library created by Duke university. http://www.dukelearntoprogram.com/course2/doc/javadoc/edu/duke/package-summary.html
+*Essential classes include:
+*DirectoryResource, which allows the user to choose one or more files from a directory.                                                        
+*FileResource, which allows access to its content one word or one line at a time. 
+*StorageResource, which allows String objects to be stored one at a time.
+*URLResource, which allows the content of a webpage to be accessed one line or one word at a time.
+*/
 import edu.duke.*;
 import org.apache.commons.csv.*;
 import java.io.File;
