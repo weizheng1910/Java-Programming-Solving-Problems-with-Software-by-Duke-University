@@ -9,6 +9,14 @@ There are many genes within a DNA sequence.
 For the below code, we will be finding the genes which has a start codon of ATG, and a end codon of either TAA,TAG, or TGA.
 With a given DNA sequence, we will be able to print all the genes within, and also count the number of them.*/
 
+/*edu.duke.* is a library created by Duke university. http://www.dukelearntoprogram.com/course2/doc/javadoc/edu/duke/package-summary.html
+*Essential classes include:
+*DirectoryResource, which allows the user to choose one or more files from a directory.                                                        
+*FileResource, which allows access to its content one word or one line at a time. 
+*StorageResource, which allows String objects to be stored one at a time.
+*URLResource, which allows the content of a webpage to be accessed one line or one word at a time.
+*/
+
 
 public class Part3 {
     // Finds the index of a specific Codon
