@@ -13,6 +13,6 @@ I have learnt to:
 
 Projects include: 
 
-Learning an algorithm which finds gene from a DNA string.
-Conducting basic statistical analysis of US weather data using Apache Commons Spark Package.
-Determining the popularity of different baby names in the US over time by analyzing comma separated value (CSV) files (using Apache Commons Spark Package).
+1. Learning an algorithm which finds gene from a DNA string.
+2. Conducting basic statistical analysis of US weather data using Apache Commons Spark Package.
+3. Determining the popularity of different baby names in the US over time by analyzing comma separated value (CSV) files (using Apache Commons Spark Package).
